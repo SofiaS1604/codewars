@@ -1,0 +1,1 @@
+weirdHexToDec=x=>+`0x${x}`
