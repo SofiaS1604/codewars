@@ -1,0 +1,1 @@
+let findOdd = (A) => A.find((item) => A.filter(el => el == item).length % 2);
