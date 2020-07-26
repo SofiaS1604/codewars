@@ -1,0 +1,1 @@
+let expandedForm = (num) => String(num).split("").reverse().map((num, index) => num * Math.pow(10, index)).filter(el => el !== 0).reverse().join(' + ');

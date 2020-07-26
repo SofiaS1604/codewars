@@ -9,7 +9,7 @@ Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 i.e.
 
 ```
-    friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 ```
 
 Note: keep the original order of the names in the output.

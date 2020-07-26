@@ -1,0 +1,1 @@
+const solve = array => array.find(number => !array.includes(-number))
