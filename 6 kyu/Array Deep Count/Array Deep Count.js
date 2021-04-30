@@ -1,0 +1,1 @@
+let deepCount = (a) => a.reduce((sum, e) => sum + (Array.isArray(e) ? deepCount(e) : 0), a.length);

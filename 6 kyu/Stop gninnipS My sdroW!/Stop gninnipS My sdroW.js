@@ -1,0 +1,1 @@
+let spinWords = str => str.split(" ").map(el => el.length >= 5 ? el.split('').reverse().join('') : el).join(' ')
